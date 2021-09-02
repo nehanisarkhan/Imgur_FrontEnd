@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 500px));
+  grid-gap: 50px;
+  justify-content: space-around;
+}
